@@ -1,0 +1,19 @@
+.produtos{
+  width: 80%;
+  margin: 20px auto;
+
+  box-sizing: border-box;
+}
+
+.produtos > div{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+
+  justify-items: center;
+}
+
+.produtos img:hover{
+  transform: scale(1.05);
+  transition: all 0.3s;
+
+}

@@ -1,0 +1,57 @@
+/*.produtos{
+  width: 80%;
+  margin: 20px auto;
+
+  box-sizing: border-box;
+}
+
+.produtos > div{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+
+  justify-items: center;
+}
+
+.produtos img:hover{
+  transform: scale(1.05);
+  transition: all 0.3s;
+
+}
+*/
+.produtos{
+  margin: auto;
+    
+}
+
+.mae{
+  display: grid;
+  grid-template-columns: repeat(3, 356px);
+  justify-content: center;
+  align-content: center; 
+  align-items: center;
+  gap: 10px;
+}
+
+.produtoFilho{
+  border-style:solid  ;
+  width: 354px;
+  height: 650px;
+}
+
+h3{
+  height: 50px;
+  margin: 10px;
+}
+
+.test{
+  margin: 10px;
+}
+
+span
+{
+  margin: 10px ;
+}
+
+form{
+  margin: 10px;
+}

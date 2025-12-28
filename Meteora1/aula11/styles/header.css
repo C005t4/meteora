@@ -1,0 +1,40 @@
+header{
+  position: sticky;
+  top: 0;
+  z-index: 2;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  height: 70px;
+  width: 100vw;
+  padding: 0 20px;
+
+  background-color: black;
+
+}
+
+header a {
+  color: #cccccc;
+}
+
+header nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  width: 500px;
+}
+
+header button{
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+
+  background-color: black;
+  color: whitesmoke;
+  border: 1px solid whitesmoke;
+  border-radius: 0px;
+}
